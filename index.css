@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@keyframes sound {
+  0% {
+    height: 4px;
+  }
+  100% {
+    height: 14px;
+  }
+}
+
+.animate-\[sound_0\.7s_infinite_ease-in-out_alternate\] {
+  animation: sound 0.7s infinite ease-in-out alternate;
+}
+.animate-\[sound_0\.5s_infinite_ease-in-out_alternate_delay-100\] {
+  animation: sound 0.5s infinite ease-in-out alternate;
+  animation-delay: 100ms;
+}
+.animate-\[sound_0\.8s_infinite_ease-in-out_alternate_delay-300\] {
+  animation: sound 0.8s infinite ease-in-out alternate;
+  animation-delay: 300ms;
+}
+.animate-\[sound_0\.6s_infinite_ease-in-out_alternate_delay-200\] {
+  animation: sound 0.6s infinite ease-in-out alternate;
+  animation-delay: 200ms;
+}

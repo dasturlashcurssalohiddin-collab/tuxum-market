@@ -1,0 +1,6 @@
+{
+  "name": "Tuxum Market Farg'ona",
+  "description": "Premium Uheyiluy (moviy-yashil) tuxumlari buyurtma tizimi va ma'lumotlar platformasi. Zamonaviy dizayn, admin paneli, audio-ovozli o'qish va 50 tilda tarjima tizimi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
